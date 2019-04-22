@@ -14,6 +14,7 @@
 
 int main(int argc, char *argv[])
 {
+    TESTS_QUIET = 1;
 
     int retval,cid,rapl_cid=-1,numcmp;
     int EventSet = PAPI_NULL;
@@ -132,25 +133,29 @@ int main(int argc, char *argv[])
      }
 
     int rank, size;
+    //char hostname[255];
+    //int size_hostname;
     MPI_Status status;
     clock_t start_t, end_t;
     start_t = clock();
     MPI_Init(&argc, &argv);
     MPI_Comm_size(MPI_COMM_WORLD, &size);
     MPI_Comm_rank(MPI_COMM_WORLD, &rank);
-    if (rank == 0) {
+    //MPI_Get_processor_name(hostname, &size_hostname);
+    //printf("rank %d in %s\n", rank, hostname);
+    if (rank < 12) {
         int* send_buffer = (int *)malloc(N * sizeof(int));
     for (i = 0; i < N; i++)
         send_buffer[i] = i;
     for (i = 0; i < NMSG; i++){
-        MPI_Send(send_buffer, N, MPI_INT, 1, 0, MPI_COMM_WORLD);
+        MPI_Send(send_buffer, N, MPI_INT, rank + 12, 0, MPI_COMM_WORLD);
         }   
         printf("send conpleted\n");
     }
     else {
         int* recv_buffer = (int *)malloc(N * sizeof(int));
     for(i = 0; i < NMSG; i++)
-        MPI_Recv(recv_buffer, N, MPI_INT, 0, 0, MPI_COMM_WORLD, &status);
+        MPI_Recv(recv_buffer, N, MPI_INT, rank - 12, 0, MPI_COMM_WORLD, &status);
         end_t = clock();
         clock_t t = end_t - start_t;
         double time_taken = ((double)t)/CLOCKS_PER_SEC;
@@ -169,7 +174,7 @@ int main(int argc, char *argv[])
 
      elapsed_time=((double)(after_time-before_time))/1.0e9;
 
-     if (!TESTS_QUIET) {
+     if (rank == 0) {
         printf("\nStopping measurements, took %.3fs, gathering results...\n\n",
            elapsed_time);
 
@@ -185,43 +190,43 @@ int main(int argc, char *argv[])
            }
         }
 
-        printf("\n");
-        printf("Energy measurement counts:\n");
+        // printf("\n");
+        // printf("Energy measurement counts:\n");
 
-        for(i=0;i<num_events;i++) {
-           if (strstr(event_names[i],"ENERGY_CNT")) {
-              printf("%-40s%12lld\t%#08llx\n", event_names[i], values[i], values[i]);
-           }
-        }
+        // for(i=0;i<num_events;i++) {
+        //    if (strstr(event_names[i],"ENERGY_CNT")) {
+        //       printf("%-40s%12lld\t%#08llx\n", event_names[i], values[i], values[i]);
+        //    }
+        // }
 
-        printf("\n");
-        printf("Scaled Fixed values:\n");
+        // printf("\n");
+        // printf("Scaled Fixed values:\n");
 
-        for(i=0;i<num_events;i++) {
-           if (!strstr(event_names[i],"ENERGY")) {
-             if (data_type[i] == PAPI_DATATYPE_FP64) {
+        // for(i=0;i<num_events;i++) {
+        //    if (!strstr(event_names[i],"ENERGY")) {
+        //      if (data_type[i] == PAPI_DATATYPE_FP64) {
 
-                 union {
-                   long long ll;
-                   double fp;
-                 } result;
+        //          union {
+        //            long long ll;
+        //            double fp;
+        //          } result;
 
-                result.ll=values[i];
-                printf("%-40s%12.3f %s\n", event_names[i], result.fp, units[i]);
-              }
-           }
-        }
+        //         result.ll=values[i];
+        //         printf("%-40s%12.3f %s\n", event_names[i], result.fp, units[i]);
+        //       }
+        //    }
+        // }
 
-        printf("\n");
-        printf("Fixed value counts:\n");
+        // printf("\n");
+        // printf("Fixed value counts:\n");
 
-        for(i=0;i<num_events;i++) {
-           if (!strstr(event_names[i],"ENERGY")) {
-              if (data_type[i] == PAPI_DATATYPE_UINT64) {
-                printf("%-40s%12lld\t%#08llx\n", event_names[i], values[i], values[i]);
-              }
-           }
-        }
+        // for(i=0;i<num_events;i++) {
+        //    if (!strstr(event_names[i],"ENERGY")) {
+        //       if (data_type[i] == PAPI_DATATYPE_UINT64) {
+        //         printf("%-40s%12lld\t%#08llx\n", event_names[i], values[i], values[i]);
+        //       }
+        //    }
+        // }
 
      }
 
@@ -238,7 +243,7 @@ int main(int argc, char *argv[])
                               "PAPI_destroy_eventset()",retval);
      }
 
-     test_pass( __FILE__ );
+     //test_pass( __FILE__ );
 
 
     return 0;

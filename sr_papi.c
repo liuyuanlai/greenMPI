@@ -143,19 +143,19 @@ int main(int argc, char *argv[])
     MPI_Comm_rank(MPI_COMM_WORLD, &rank);
     //MPI_Get_processor_name(hostname, &size_hostname);
     //printf("rank %d in %s\n", rank, hostname);
-    if (rank < 12) {
+    if (rank < (size / 2)) {
         int* send_buffer = (int *)malloc(N * sizeof(int));
     for (i = 0; i < N; i++)
         send_buffer[i] = i;
     for (i = 0; i < NMSG; i++){
-        MPI_Send(send_buffer, N, MPI_INT, rank + 12, 0, MPI_COMM_WORLD);
+        MPI_Send(send_buffer, N, MPI_INT, rank + (size / 2), 0, MPI_COMM_WORLD);
         }   
         printf("send conpleted\n");
     }
     else {
         int* recv_buffer = (int *)malloc(N * sizeof(int));
     for(i = 0; i < NMSG; i++)
-        MPI_Recv(recv_buffer, N, MPI_INT, rank - 12, 0, MPI_COMM_WORLD, &status);
+        MPI_Recv(recv_buffer, N, MPI_INT, rank - (size / 2), 0, MPI_COMM_WORLD, &status);
         end_t = clock();
         clock_t t = end_t - start_t;
         double time_taken = ((double)t)/CLOCKS_PER_SEC;

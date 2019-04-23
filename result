@@ -1,19 +1,893 @@
 1.2
 send conpleted
 recv completed!
-Send/Recv took 291.200000 seconds to execute 
+Send/Recv took 268.140000 seconds to execute 
 send conpleted
 recv completed!
-Send/Recv took 291.380000 seconds to execute 
+Send/Recv took 331.520000 seconds to execute 
 send conpleted
 recv completed!
-Send/Recv took 361.570000 seconds to execute 
+Send/Recv took 331.560000 seconds to execute 
 send conpleted
 recv completed!
-Send/Recv took 361.610000 seconds to execute 
+Send/Recv took 331.970000 seconds to execute 
 send conpleted
 recv completed!
-Send/Recv took 365.190000 seconds to execute 
+Send/Recv took 332.000000 seconds to execute 
 send conpleted
 recv completed!
-Send/Recv took 365.480000 seconds to execute 
+Send/Recv took 370.530000 seconds to execute 
+send conpleted
+recv completed!
+Send/Recv took 380.010000 seconds to execute 
+send conpleted
+recv completed!
+Send/Recv took 380.010000 seconds to execute 
+send conpleted
+recv completed!
+Send/Recv took 407.860000 seconds to execute 
+send conpleted
+recv completed!
+Send/Recv took 408.200000 seconds to execute 
+send conpleted
+recv completed!
+Send/Recv took 408.430000 seconds to execute 
+send conpleted
+recv completed!
+Send/Recv took 408.530000 seconds to execute 
+
+Stopping measurements, took 408.929s, gathering results...
+
+Scaled energy measurements:
+rapl:::PACKAGE_ENERGY:PACKAGE0          20513.511169 J	(Average Power 50.2W)
+rapl:::PACKAGE_ENERGY:PACKAGE1          19470.762939 J	(Average Power 47.6W)
+rapl:::DRAM_ENERGY:PACKAGE0              2773.044037 J	(Average Power 6.8W)
+rapl:::DRAM_ENERGY:PACKAGE1              2971.871246 J	(Average Power 7.3W)
+rapl:::PP0_ENERGY:PACKAGE0                  0.000000 J	(Average Power 0.0W)
+rapl:::PP0_ENERGY:PACKAGE1                  0.000000 J	(Average Power 0.0W)
+1.3
+send conpleted
+recv completed!
+Send/Recv took 321.150000 seconds to execute 
+send conpleted
+recv completed!
+Send/Recv took 321.170000 seconds to execute 
+send conpleted
+recv completed!
+Send/Recv took 321.240000 seconds to execute 
+send conpleted
+recv completed!
+Send/Recv took 384.180000 seconds to execute 
+send conpleted
+recv completed!
+Send/Recv took 384.290000 seconds to execute 
+send conpleted
+recv completed!
+Send/Recv took 384.440000 seconds to execute 
+send conpleted
+recv completed!
+Send/Recv took 384.490000 seconds to execute 
+send conpleted
+recv completed!
+Send/Recv took 384.750000 seconds to execute 
+send conpleted
+recv completed!
+Send/Recv took 384.760000 seconds to execute 
+send conpleted
+recv completed!
+Send/Recv took 408.330000 seconds to execute 
+send conpleted
+recv completed!
+Send/Recv took 408.340000 seconds to execute 
+send conpleted
+recv completed!
+Send/Recv took 408.430000 seconds to execute 
+
+Stopping measurements, took 408.833s, gathering results...
+
+Scaled energy measurements:
+rapl:::PACKAGE_ENERGY:PACKAGE0          21135.653198 J	(Average Power 51.7W)
+rapl:::PACKAGE_ENERGY:PACKAGE1          19801.168030 J	(Average Power 48.4W)
+rapl:::DRAM_ENERGY:PACKAGE0              2769.143173 J	(Average Power 6.8W)
+rapl:::DRAM_ENERGY:PACKAGE1              2971.325027 J	(Average Power 7.3W)
+rapl:::PP0_ENERGY:PACKAGE0                  0.000000 J	(Average Power 0.0W)
+rapl:::PP0_ENERGY:PACKAGE1                  0.000000 J	(Average Power 0.0W)
+1.4
+send conpleted
+recv completed!
+Send/Recv took 253.000000 seconds to execute 
+send conpleted
+recv completed!
+Send/Recv took 254.530000 seconds to execute 
+send conpleted
+recv completed!
+Send/Recv took 304.410000 seconds to execute 
+send conpleted
+recv completed!
+Send/Recv took 304.350000 seconds to execute 
+send conpleted
+recv completed!
+Send/Recv took 314.930000 seconds to execute 
+send conpleted
+recv completed!
+Send/Recv took 330.960000 seconds to execute 
+send conpleted
+recv completed!
+Send/Recv took 331.200000 seconds to execute 
+send conpleted
+recv completed!
+Send/Recv took 404.480000 seconds to execute 
+send conpleted
+recv completed!
+Send/Recv took 406.250000 seconds to execute 
+send conpleted
+recv completed!
+Send/Recv took 406.690000 seconds to execute 
+send conpleted
+recv completed!
+Send/Recv took 407.990000 seconds to execute 
+send conpleted
+recv completed!
+Send/Recv took 408.500000 seconds to execute 
+
+Stopping measurements, took 408.827s, gathering results...
+
+Scaled energy measurements:
+rapl:::PACKAGE_ENERGY:PACKAGE0          21129.652893 J	(Average Power 51.7W)
+rapl:::PACKAGE_ENERGY:PACKAGE1          20028.265076 J	(Average Power 49.0W)
+rapl:::DRAM_ENERGY:PACKAGE0              2785.228180 J	(Average Power 6.8W)
+rapl:::DRAM_ENERGY:PACKAGE1              2948.853699 J	(Average Power 7.2W)
+rapl:::PP0_ENERGY:PACKAGE0                  0.000000 J	(Average Power 0.0W)
+rapl:::PP0_ENERGY:PACKAGE1                  0.000000 J	(Average Power 0.0W)
+1.5
+send conpleted
+recv completed!
+Send/Recv took 275.610000 seconds to execute 
+send conpleted
+recv completed!
+Send/Recv took 275.620000 seconds to execute 
+send conpleted
+recv completed!
+Send/Recv took 277.190000 seconds to execute 
+send conpleted
+recv completed!
+Send/Recv took 324.540000 seconds to execute 
+send conpleted
+recv completed!
+Send/Recv took 325.630000 seconds to execute 
+send conpleted
+recv completed!
+Send/Recv took 374.590000 seconds to execute 
+send conpleted
+recv completed!
+Send/Recv took 376.100000 seconds to execute 
+send conpleted
+recv completed!
+Send/Recv took 377.110000 seconds to execute 
+send conpleted
+recv completed!
+Send/Recv took 400.770000 seconds to execute 
+send conpleted
+recv completed!
+Send/Recv took 400.930000 seconds to execute 
+send conpleted
+recv completed!
+Send/Recv took 406.350000 seconds to execute 
+send conpleted
+recv completed!
+Send/Recv took 408.930000 seconds to execute 
+
+Stopping measurements, took 409.235s, gathering results...
+
+Scaled energy measurements:
+rapl:::PACKAGE_ENERGY:PACKAGE0          21649.611267 J	(Average Power 52.9W)
+rapl:::PACKAGE_ENERGY:PACKAGE1          20352.008362 J	(Average Power 49.7W)
+rapl:::DRAM_ENERGY:PACKAGE0              2773.728928 J	(Average Power 6.8W)
+rapl:::DRAM_ENERGY:PACKAGE1              2969.166046 J	(Average Power 7.3W)
+rapl:::PP0_ENERGY:PACKAGE0                  0.000000 J	(Average Power 0.0W)
+rapl:::PP0_ENERGY:PACKAGE1                  0.000000 J	(Average Power 0.0W)
+1.6
+send conpleted
+recv completed!
+Send/Recv took 290.700000 seconds to execute 
+send conpleted
+recv completed!
+Send/Recv took 290.740000 seconds to execute 
+send conpleted
+recv completed!
+Send/Recv took 290.760000 seconds to execute 
+send conpleted
+recv completed!
+Send/Recv took 290.790000 seconds to execute 
+send conpleted
+recv completed!
+Send/Recv took 290.810000 seconds to execute 
+send conpleted
+recv completed!
+Send/Recv took 376.050000 seconds to execute 
+send conpleted
+recv completed!
+Send/Recv took 376.150000 seconds to execute 
+send conpleted
+recv completed!
+Send/Recv took 377.000000 seconds to execute 
+send conpleted
+recv completed!
+Send/Recv took 400.290000 seconds to execute 
+send conpleted
+recv completed!
+Send/Recv took 405.430000 seconds to execute 
+send conpleted
+recv completed!
+Send/Recv took 407.150000 seconds to execute 
+send conpleted
+recv completed!
+Send/Recv took 408.850000 seconds to execute 
+
+Stopping measurements, took 409.224s, gathering results...
+
+Scaled energy measurements:
+rapl:::PACKAGE_ENERGY:PACKAGE0          21767.905029 J	(Average Power 53.2W)
+rapl:::PACKAGE_ENERGY:PACKAGE1          21271.009949 J	(Average Power 52.0W)
+rapl:::DRAM_ENERGY:PACKAGE0              2794.436920 J	(Average Power 6.8W)
+rapl:::DRAM_ENERGY:PACKAGE1              2962.051132 J	(Average Power 7.2W)
+rapl:::PP0_ENERGY:PACKAGE0                  0.000000 J	(Average Power 0.0W)
+rapl:::PP0_ENERGY:PACKAGE1                  0.000000 J	(Average Power 0.0W)
+1.7
+send conpleted
+recv completed!
+Send/Recv took 326.180000 seconds to execute 
+send conpleted
+recv completed!
+Send/Recv took 326.210000 seconds to execute 
+send conpleted
+recv completed!
+Send/Recv took 326.210000 seconds to execute 
+send conpleted
+recv completed!
+Send/Recv took 352.710000 seconds to execute 
+send conpleted
+recv completed!
+Send/Recv took 352.780000 seconds to execute 
+send conpleted
+recv completed!
+Send/Recv took 387.440000 seconds to execute 
+send conpleted
+recv completed!
+Send/Recv took 389.350000 seconds to execute 
+send conpleted
+recv completed!
+Send/Recv took 389.570000 seconds to execute 
+send conpleted
+recv completed!
+Send/Recv took 389.560000 seconds to execute 
+send conpleted
+recv completed!
+Send/Recv took 405.040000 seconds to execute 
+send conpleted
+recv completed!
+Send/Recv took 405.290000 seconds to execute 
+send conpleted
+recv completed!
+Send/Recv took 409.120000 seconds to execute 
+
+Stopping measurements, took 409.361s, gathering results...
+
+Scaled energy measurements:
+rapl:::PACKAGE_ENERGY:PACKAGE0          22559.665955 J	(Average Power 55.1W)
+rapl:::PACKAGE_ENERGY:PACKAGE1          21338.171448 J	(Average Power 52.1W)
+rapl:::DRAM_ENERGY:PACKAGE0              2780.334671 J	(Average Power 6.8W)
+rapl:::DRAM_ENERGY:PACKAGE1              2978.885147 J	(Average Power 7.3W)
+rapl:::PP0_ENERGY:PACKAGE0                  0.000000 J	(Average Power 0.0W)
+rapl:::PP0_ENERGY:PACKAGE1                  0.000000 J	(Average Power 0.0W)
+1.8
+send conpleted
+recv completed!
+Send/Recv took 250.460000 seconds to execute 
+send conpleted
+recv completed!
+Send/Recv took 250.490000 seconds to execute 
+send conpleted
+recv completed!
+Send/Recv took 356.970000 seconds to execute 
+send conpleted
+recv completed!
+Send/Recv took 374.920000 seconds to execute 
+send conpleted
+recv completed!
+Send/Recv took 376.360000 seconds to execute 
+send conpleted
+recv completed!
+Send/Recv took 377.670000 seconds to execute 
+send conpleted
+recv completed!
+Send/Recv took 377.980000 seconds to execute 
+send conpleted
+recv completed!
+Send/Recv took 378.280000 seconds to execute 
+send conpleted
+recv completed!
+Send/Recv took 399.870000 seconds to execute 
+send conpleted
+recv completed!
+Send/Recv took 402.770000 seconds to execute 
+send conpleted
+recv completed!
+Send/Recv took 408.610000 seconds to execute 
+send conpleted
+recv completed!
+Send/Recv took 408.800000 seconds to execute 
+
+Stopping measurements, took 409.199s, gathering results...
+
+Scaled energy measurements:
+rapl:::PACKAGE_ENERGY:PACKAGE0          23230.823608 J	(Average Power 56.8W)
+rapl:::PACKAGE_ENERGY:PACKAGE1          22201.609009 J	(Average Power 54.3W)
+rapl:::DRAM_ENERGY:PACKAGE0              2778.394104 J	(Average Power 6.8W)
+rapl:::DRAM_ENERGY:PACKAGE1              2974.381805 J	(Average Power 7.3W)
+rapl:::PP0_ENERGY:PACKAGE0                  0.000000 J	(Average Power 0.0W)
+rapl:::PP0_ENERGY:PACKAGE1                  0.000000 J	(Average Power 0.0W)
+1.9
+send conpleted
+recv completed!
+Send/Recv took 318.490000 seconds to execute 
+send conpleted
+recv completed!
+Send/Recv took 318.590000 seconds to execute 
+send conpleted
+recv completed!
+Send/Recv took 330.000000 seconds to execute 
+send conpleted
+recv completed!
+Send/Recv took 380.160000 seconds to execute 
+send conpleted
+recv completed!
+Send/Recv took 380.530000 seconds to execute 
+send conpleted
+recv completed!
+Send/Recv took 380.660000 seconds to execute 
+send conpleted
+recv completed!
+Send/Recv took 380.700000 seconds to execute 
+send conpleted
+recv completed!
+Send/Recv took 382.450000 seconds to execute 
+send conpleted
+recv completed!
+Send/Recv took 382.430000 seconds to execute 
+send conpleted
+recv completed!
+Send/Recv took 408.150000 seconds to execute 
+send conpleted
+recv completed!
+Send/Recv took 408.300000 seconds to execute 
+send conpleted
+recv completed!
+Send/Recv took 408.340000 seconds to execute 
+
+Stopping measurements, took 408.651s, gathering results...
+
+Scaled energy measurements:
+rapl:::PACKAGE_ENERGY:PACKAGE0          23992.104431 J	(Average Power 58.7W)
+rapl:::PACKAGE_ENERGY:PACKAGE1          23972.056458 J	(Average Power 58.7W)
+rapl:::DRAM_ENERGY:PACKAGE0              2774.223557 J	(Average Power 6.8W)
+rapl:::DRAM_ENERGY:PACKAGE1              2967.384567 J	(Average Power 7.3W)
+rapl:::PP0_ENERGY:PACKAGE0                  0.000000 J	(Average Power 0.0W)
+rapl:::PP0_ENERGY:PACKAGE1                  0.000000 J	(Average Power 0.0W)
+2.0
+send conpleted
+recv completed!
+Send/Recv took 324.720000 seconds to execute 
+send conpleted
+recv completed!
+Send/Recv took 351.150000 seconds to execute 
+send conpleted
+recv completed!
+Send/Recv took 351.300000 seconds to execute 
+send conpleted
+recv completed!
+Send/Recv took 352.550000 seconds to execute 
+send conpleted
+recv completed!
+Send/Recv took 352.570000 seconds to execute 
+send conpleted
+recv completed!
+Send/Recv took 384.980000 seconds to execute 
+send conpleted
+recv completed!
+Send/Recv took 385.620000 seconds to execute 
+send conpleted
+recv completed!
+Send/Recv took 388.540000 seconds to execute 
+send conpleted
+recv completed!
+Send/Recv took 389.200000 seconds to execute 
+send conpleted
+recv completed!
+Send/Recv took 406.800000 seconds to execute 
+send conpleted
+recv completed!
+Send/Recv took 407.500000 seconds to execute 
+send conpleted
+recv completed!
+Send/Recv took 408.500000 seconds to execute 
+
+Stopping measurements, took 408.768s, gathering results...
+
+Scaled energy measurements:
+rapl:::PACKAGE_ENERGY:PACKAGE0          24621.423889 J	(Average Power 60.2W)
+rapl:::PACKAGE_ENERGY:PACKAGE1          24071.703674 J	(Average Power 58.9W)
+rapl:::DRAM_ENERGY:PACKAGE0              2775.599136 J	(Average Power 6.8W)
+rapl:::DRAM_ENERGY:PACKAGE1              2974.840012 J	(Average Power 7.3W)
+rapl:::PP0_ENERGY:PACKAGE0                  0.000000 J	(Average Power 0.0W)
+rapl:::PP0_ENERGY:PACKAGE1                  0.000000 J	(Average Power 0.0W)
+2.1
+send conpleted
+recv completed!
+Send/Recv took 269.100000 seconds to execute 
+send conpleted
+recv completed!
+Send/Recv took 343.500000 seconds to execute 
+send conpleted
+recv completed!
+Send/Recv took 343.620000 seconds to execute 
+send conpleted
+recv completed!
+Send/Recv took 391.400000 seconds to execute 
+send conpleted
+recv completed!
+Send/Recv took 400.170000 seconds to execute 
+send conpleted
+recv completed!
+Send/Recv took 400.230000 seconds to execute 
+send conpleted
+recv completed!
+Send/Recv took 407.030000 seconds to execute 
+send conpleted
+recv completed!
+Send/Recv took 407.890000 seconds to execute 
+send conpleted
+recv completed!
+Send/Recv took 408.090000 seconds to execute 
+send conpleted
+recv completed!
+Send/Recv took 408.180000 seconds to execute 
+send conpleted
+recv completed!
+Send/Recv took 408.270000 seconds to execute 
+send conpleted
+recv completed!
+Send/Recv took 408.300000 seconds to execute 
+
+Stopping measurements, took 408.649s, gathering results...
+
+Scaled energy measurements:
+rapl:::PACKAGE_ENERGY:PACKAGE0          26068.678406 J	(Average Power 63.8W)
+rapl:::PACKAGE_ENERGY:PACKAGE1          24750.505676 J	(Average Power 60.6W)
+rapl:::DRAM_ENERGY:PACKAGE0              2784.130630 J	(Average Power 6.8W)
+rapl:::DRAM_ENERGY:PACKAGE1              2948.731323 J	(Average Power 7.2W)
+rapl:::PP0_ENERGY:PACKAGE0                  0.000000 J	(Average Power 0.0W)
+rapl:::PP0_ENERGY:PACKAGE1                  0.000000 J	(Average Power 0.0W)
+2.2
+send conpleted
+recv completed!
+Send/Recv took 293.810000 seconds to execute 
+send conpleted
+recv completed!
+Send/Recv took 294.290000 seconds to execute 
+send conpleted
+recv completed!
+Send/Recv took 350.920000 seconds to execute 
+send conpleted
+recv completed!
+Send/Recv took 350.880000 seconds to execute 
+send conpleted
+recv completed!
+Send/Recv took 351.900000 seconds to execute 
+send conpleted
+recv completed!
+Send/Recv took 351.910000 seconds to execute 
+send conpleted
+recv completed!
+Send/Recv took 351.920000 seconds to execute 
+send conpleted
+recv completed!
+Send/Recv took 352.170000 seconds to execute 
+send conpleted
+recv completed!
+Send/Recv took 398.100000 seconds to execute 
+send conpleted
+recv completed!
+Send/Recv took 406.340000 seconds to execute 
+send conpleted
+recv completed!
+Send/Recv took 408.280000 seconds to execute 
+send conpleted
+recv completed!
+Send/Recv took 408.380000 seconds to execute 
+
+Stopping measurements, took 408.701s, gathering results...
+
+Scaled energy measurements:
+rapl:::PACKAGE_ENERGY:PACKAGE0          25980.703064 J	(Average Power 63.6W)
+rapl:::PACKAGE_ENERGY:PACKAGE1          24916.968445 J	(Average Power 61.0W)
+rapl:::DRAM_ENERGY:PACKAGE0              2776.444290 J	(Average Power 6.8W)
+rapl:::DRAM_ENERGY:PACKAGE1              2968.112137 J	(Average Power 7.3W)
+rapl:::PP0_ENERGY:PACKAGE0                  0.000000 J	(Average Power 0.0W)
+rapl:::PP0_ENERGY:PACKAGE1                  0.000000 J	(Average Power 0.0W)
+2.3
+send conpleted
+recv completed!
+Send/Recv took 297.820000 seconds to execute 
+send conpleted
+recv completed!
+Send/Recv took 381.740000 seconds to execute 
+send conpleted
+recv completed!
+Send/Recv took 381.720000 seconds to execute 
+send conpleted
+recv completed!
+Send/Recv took 381.980000 seconds to execute 
+send conpleted
+recv completed!
+Send/Recv took 381.950000 seconds to execute 
+send conpleted
+recv completed!
+Send/Recv took 382.080000 seconds to execute 
+send conpleted
+recv completed!
+Send/Recv took 382.090000 seconds to execute 
+send conpleted
+recv completed!
+Send/Recv took 382.200000 seconds to execute 
+send conpleted
+recv completed!
+Send/Recv took 382.170000 seconds to execute 
+send conpleted
+recv completed!
+Send/Recv took 402.630000 seconds to execute 
+send conpleted
+recv completed!
+Send/Recv took 408.350000 seconds to execute 
+send conpleted
+recv completed!
+Send/Recv took 408.490000 seconds to execute 
+
+Stopping measurements, took 408.697s, gathering results...
+
+Scaled energy measurements:
+rapl:::PACKAGE_ENERGY:PACKAGE0          26814.406677 J	(Average Power 65.6W)
+rapl:::PACKAGE_ENERGY:PACKAGE1          26552.926636 J	(Average Power 65.0W)
+rapl:::DRAM_ENERGY:PACKAGE0              2778.368011 J	(Average Power 6.8W)
+rapl:::DRAM_ENERGY:PACKAGE1              2967.881485 J	(Average Power 7.3W)
+rapl:::PP0_ENERGY:PACKAGE0                  0.000000 J	(Average Power 0.0W)
+rapl:::PP0_ENERGY:PACKAGE1                  0.000000 J	(Average Power 0.0W)
+2.4
+send conpleted
+send conpleted
+recv completed!
+Send/Recv took 284.830000 seconds to execute 
+recv completed!
+Send/Recv took 284.830000 seconds to execute 
+send conpleted
+recv completed!
+Send/Recv took 360.230000 seconds to execute 
+send conpleted
+recv completed!
+Send/Recv took 360.290000 seconds to execute 
+send conpleted
+recv completed!
+Send/Recv took 368.060000 seconds to execute 
+send conpleted
+recv completed!
+Send/Recv took 368.460000 seconds to execute 
+send conpleted
+recv completed!
+Send/Recv took 399.650000 seconds to execute 
+send conpleted
+recv completed!
+Send/Recv took 405.660000 seconds to execute 
+send conpleted
+recv completed!
+Send/Recv took 406.270000 seconds to execute 
+send conpleted
+recv completed!
+Send/Recv took 406.380000 seconds to execute 
+send conpleted
+recv completed!
+Send/Recv took 408.190000 seconds to execute 
+send conpleted
+recv completed!
+Send/Recv took 408.280000 seconds to execute 
+
+Stopping measurements, took 408.566s, gathering results...
+
+Scaled energy measurements:
+rapl:::PACKAGE_ENERGY:PACKAGE0          30569.980774 J	(Average Power 74.8W)
+rapl:::PACKAGE_ENERGY:PACKAGE1          30914.700623 J	(Average Power 75.7W)
+rapl:::DRAM_ENERGY:PACKAGE0              2795.342651 J	(Average Power 6.8W)
+rapl:::DRAM_ENERGY:PACKAGE1              2950.509247 J	(Average Power 7.2W)
+rapl:::PP0_ENERGY:PACKAGE0                  0.000000 J	(Average Power 0.0W)
+rapl:::PP0_ENERGY:PACKAGE1                  0.000000 J	(Average Power 0.0W)
+2.5
+send conpleted
+recv completed!
+Send/Recv took 297.020000 seconds to execute 
+send conpleted
+recv completed!
+Send/Recv took 297.200000 seconds to execute 
+send conpleted
+recv completed!
+Send/Recv took 367.580000 seconds to execute 
+send conpleted
+recv completed!
+Send/Recv took 367.650000 seconds to execute 
+send conpleted
+recv completed!
+Send/Recv took 367.780000 seconds to execute 
+send conpleted
+recv completed!
+Send/Recv took 367.790000 seconds to execute 
+send conpleted
+recv completed!
+Send/Recv took 382.380000 seconds to execute 
+send conpleted
+recv completed!
+Send/Recv took 393.890000 seconds to execute 
+send conpleted
+recv completed!
+Send/Recv took 395.710000 seconds to execute 
+send conpleted
+recv completed!
+Send/Recv took 403.850000 seconds to execute 
+send conpleted
+recv completed!
+Send/Recv took 404.190000 seconds to execute 
+send conpleted
+recv completed!
+Send/Recv took 409.270000 seconds to execute 
+
+Stopping measurements, took 409.474s, gathering results...
+
+Scaled energy measurements:
+rapl:::PACKAGE_ENERGY:PACKAGE0          30484.432861 J	(Average Power 74.4W)
+rapl:::PACKAGE_ENERGY:PACKAGE1          29974.529419 J	(Average Power 73.2W)
+rapl:::DRAM_ENERGY:PACKAGE0              2781.772293 J	(Average Power 6.8W)
+rapl:::DRAM_ENERGY:PACKAGE1              2968.353409 J	(Average Power 7.2W)
+rapl:::PP0_ENERGY:PACKAGE0                  0.000000 J	(Average Power 0.0W)
+rapl:::PP0_ENERGY:PACKAGE1                  0.000000 J	(Average Power 0.0W)
+2.6
+send conpleted
+recv completed!
+Send/Recv took 282.030000 seconds to execute 
+send conpleted
+recv completed!
+Send/Recv took 281.950000 seconds to execute 
+send conpleted
+recv completed!
+Send/Recv took 282.120000 seconds to execute 
+send conpleted
+recv completed!
+Send/Recv took 388.810000 seconds to execute 
+send conpleted
+recv completed!
+Send/Recv took 395.330000 seconds to execute 
+send conpleted
+recv completed!
+Send/Recv took 395.790000 seconds to execute 
+send conpleted
+recv completed!
+Send/Recv took 398.050000 seconds to execute 
+send conpleted
+recv completed!
+Send/Recv took 398.460000 seconds to execute 
+send conpleted
+recv completed!
+Send/Recv took 400.720000 seconds to execute 
+send conpleted
+recv completed!
+Send/Recv took 400.930000 seconds to execute 
+send conpleted
+recv completed!
+Send/Recv took 407.560000 seconds to execute 
+send conpleted
+recv completed!
+Send/Recv took 408.430000 seconds to execute 
+
+Stopping measurements, took 408.678s, gathering results...
+
+Scaled energy measurements:
+rapl:::PACKAGE_ENERGY:PACKAGE0          31268.702515 J	(Average Power 76.5W)
+rapl:::PACKAGE_ENERGY:PACKAGE1          30606.676514 J	(Average Power 74.9W)
+rapl:::DRAM_ENERGY:PACKAGE0              2797.010727 J	(Average Power 6.8W)
+rapl:::DRAM_ENERGY:PACKAGE1              2951.053040 J	(Average Power 7.2W)
+rapl:::PP0_ENERGY:PACKAGE0                  0.000000 J	(Average Power 0.0W)
+rapl:::PP0_ENERGY:PACKAGE1                  0.000000 J	(Average Power 0.0W)
+2.7
+send conpleted
+recv completed!
+Send/Recv took 293.710000 seconds to execute 
+send conpleted
+recv completed!
+Send/Recv took 293.880000 seconds to execute 
+send conpleted
+recv completed!
+Send/Recv took 359.040000 seconds to execute 
+send conpleted
+recv completed!
+Send/Recv took 359.120000 seconds to execute 
+send conpleted
+recv completed!
+Send/Recv took 359.680000 seconds to execute 
+send conpleted
+recv completed!
+Send/Recv took 359.770000 seconds to execute 
+send conpleted
+recv completed!
+Send/Recv took 398.460000 seconds to execute 
+send conpleted
+recv completed!
+Send/Recv took 405.180000 seconds to execute 
+send conpleted
+recv completed!
+Send/Recv took 405.850000 seconds to execute 
+send conpleted
+recv completed!
+Send/Recv took 405.910000 seconds to execute 
+send conpleted
+recv completed!
+Send/Recv took 408.230000 seconds to execute 
+send conpleted
+recv completed!
+Send/Recv took 408.340000 seconds to execute 
+
+Stopping measurements, took 408.610s, gathering results...
+
+Scaled energy measurements:
+rapl:::PACKAGE_ENERGY:PACKAGE0          30628.466919 J	(Average Power 75.0W)
+rapl:::PACKAGE_ENERGY:PACKAGE1          30325.125793 J	(Average Power 74.2W)
+rapl:::DRAM_ENERGY:PACKAGE0              2798.665924 J	(Average Power 6.8W)
+rapl:::DRAM_ENERGY:PACKAGE1              2952.222870 J	(Average Power 7.2W)
+rapl:::PP0_ENERGY:PACKAGE0                  0.000000 J	(Average Power 0.0W)
+rapl:::PP0_ENERGY:PACKAGE1                  0.000000 J	(Average Power 0.0W)
+2.8
+send conpleted
+recv completed!
+Send/Recv took 293.540000 seconds to execute 
+send conpleted
+recv completed!
+Send/Recv took 293.500000 seconds to execute 
+send conpleted
+recv completed!
+Send/Recv took 350.320000 seconds to execute 
+send conpleted
+recv completed!
+Send/Recv took 350.310000 seconds to execute 
+send conpleted
+recv completed!
+Send/Recv took 350.660000 seconds to execute 
+send conpleted
+recv completed!
+Send/Recv took 351.000000 seconds to execute 
+send conpleted
+recv completed!
+Send/Recv took 351.040000 seconds to execute 
+send conpleted
+recv completed!
+Send/Recv took 351.170000 seconds to execute 
+send conpleted
+recv completed!
+Send/Recv took 402.840000 seconds to execute 
+send conpleted
+recv completed!
+Send/Recv took 403.240000 seconds to execute 
+send conpleted
+recv completed!
+Send/Recv took 406.310000 seconds to execute 
+send conpleted
+recv completed!
+Send/Recv took 408.710000 seconds to execute 
+
+Stopping measurements, took 408.988s, gathering results...
+
+Scaled energy measurements:
+rapl:::PACKAGE_ENERGY:PACKAGE0          30738.377991 J	(Average Power 75.2W)
+rapl:::PACKAGE_ENERGY:PACKAGE1          30575.802734 J	(Average Power 74.8W)
+rapl:::DRAM_ENERGY:PACKAGE0              2795.252625 J	(Average Power 6.8W)
+rapl:::DRAM_ENERGY:PACKAGE1              2958.553513 J	(Average Power 7.2W)
+rapl:::PP0_ENERGY:PACKAGE0                  0.000000 J	(Average Power 0.0W)
+rapl:::PP0_ENERGY:PACKAGE1                  0.000000 J	(Average Power 0.0W)
+2.9
+send conpleted
+recv completed!
+Send/Recv took 378.730000 seconds to execute 
+send conpleted
+recv completed!
+Send/Recv took 378.820000 seconds to execute 
+send conpleted
+recv completed!
+Send/Recv took 399.450000 seconds to execute 
+send conpleted
+recv completed!
+Send/Recv took 401.110000 seconds to execute 
+send conpleted
+recv completed!
+Send/Recv took 401.270000 seconds to execute 
+send conpleted
+recv completed!
+Send/Recv took 401.720000 seconds to execute 
+send conpleted
+recv completed!
+Send/Recv took 406.810000 seconds to execute 
+send conpleted
+recv completed!
+Send/Recv took 407.640000 seconds to execute 
+send conpleted
+recv completed!
+Send/Recv took 407.740000 seconds to execute 
+send conpleted
+recv completed!
+Send/Recv took 408.140000 seconds to execute 
+send conpleted
+recv completed!
+Send/Recv took 408.110000 seconds to execute 
+send conpleted
+recv completed!
+Send/Recv took 408.320000 seconds to execute 
+
+Stopping measurements, took 408.558s, gathering results...
+
+Scaled energy measurements:
+rapl:::PACKAGE_ENERGY:PACKAGE0          30312.773071 J	(Average Power 74.2W)
+rapl:::PACKAGE_ENERGY:PACKAGE1          30255.009949 J	(Average Power 74.1W)
+rapl:::DRAM_ENERGY:PACKAGE0              2794.643860 J	(Average Power 6.8W)
+rapl:::DRAM_ENERGY:PACKAGE1              2951.063980 J	(Average Power 7.2W)
+rapl:::PP0_ENERGY:PACKAGE0                  0.000000 J	(Average Power 0.0W)
+rapl:::PP0_ENERGY:PACKAGE1                  0.000000 J	(Average Power 0.0W)
+3.0
+send conpleted
+recv completed!
+Send/Recv took 375.820000 seconds to execute 
+send conpleted
+recv completed!
+Send/Recv took 376.050000 seconds to execute 
+send conpleted
+recv completed!
+Send/Recv took 401.690000 seconds to execute 
+send conpleted
+recv completed!
+Send/Recv took 403.320000 seconds to execute 
+send conpleted
+recv completed!
+Send/Recv took 404.010000 seconds to execute 
+send conpleted
+recv completed!
+Send/Recv took 404.900000 seconds to execute 
+send conpleted
+recv completed!
+Send/Recv took 405.520000 seconds to execute 
+send conpleted
+recv completed!
+Send/Recv took 406.370000 seconds to execute 
+send conpleted
+recv completed!
+Send/Recv took 407.170000 seconds to execute 
+send conpleted
+recv completed!
+Send/Recv took 407.670000 seconds to execute 
+send conpleted
+recv completed!
+Send/Recv took 408.170000 seconds to execute 
+send conpleted
+recv completed!
+Send/Recv took 408.350000 seconds to execute 
+
+Stopping measurements, took 408.596s, gathering results...
+
+Scaled energy measurements:
+rapl:::PACKAGE_ENERGY:PACKAGE0          30411.693237 J	(Average Power 74.4W)
+rapl:::PACKAGE_ENERGY:PACKAGE1          28889.076782 J	(Average Power 70.7W)
+rapl:::DRAM_ENERGY:PACKAGE0              2775.418869 J	(Average Power 6.8W)
+rapl:::DRAM_ENERGY:PACKAGE1              2968.184006 J	(Average Power 7.3W)
+rapl:::PP0_ENERGY:PACKAGE0                  0.000000 J	(Average Power 0.0W)
+rapl:::PP0_ENERGY:PACKAGE1                  0.000000 J	(Average Power 0.0W)
